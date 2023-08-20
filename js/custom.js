@@ -1,14 +1,11 @@
 $(document).ready(function (e){
-//
-//     let text1 = "WEB development";
-//     let text2 = "AI integration";
-//     let text3 = "SEO";
-//     let text4 = "Usability Audit";
-//
-//     let list1 = $('.list1');
-//     let list2 = $('.list2');
-//     let list3 = $('.list3');
-//     let list4 = $('.list4');
+
+    let burger = $('.burger');
+
+    burger.click(function (e){
+       e.preventDefault();
+       $('.mobile-block').toggleClass('mobile-hide');
+    });
 
     (function(){
 

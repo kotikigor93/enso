@@ -6,6 +6,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+.mobile-nav{
+  display: none;
+}
 .container{
     padding: 0!important;
     position: relative;
@@ -293,6 +296,9 @@ footer .footer-nav .footer-nav_block ul li{
     color: #fff;
     padding: 10px 0;
 }
+.mobile-hide{
+    display: none!important;
+}
 
 @media screen and (max-width: 1400px) {
     .header-nav_items li {
@@ -437,5 +443,74 @@ footer .footer-nav .footer-nav_block ul li{
         max-height: 72px;
         width: 100%;
         height: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container{
+        width: 100%!important;
+    }
+    .desctop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .logo{
+        width: auto;
+    }
+    .burger{
+        width: 50px;
+        margin-right: 15px;
+    }
+    .burger-line{
+        border-bottom: 2px solid #000;
+        margin-top: 10px;
+    }
+    .header-nav_items{
+        width: 100%;
+        background: #F3F5F8;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-nav_items li{
+        margin-left: 5%;
+        width: 90%;
+        padding: 15px;
+        border-bottom: 1px solid #B1B1B1;
+    }
+    .active-menu{
+        padding: 30px 0 30px 15px!important;
+    }
+
+    .mobile-block{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #F3F5F8;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .mobile-block .cont{
+        margin-left: 5%;
+        width: 90%;
+        padding: 15px;
+        color: #37447E;
+        font-size: 14px;
+    }
+    .mobile-block img{
+        width: 30px;
+    }
+    .mobile-block .start{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 5px;
+        background: linear-gradient(88deg, #A9AEC3 0%, #37447E 67.64%);
+        box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
+        font-size: 16px!important;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
     }
 }

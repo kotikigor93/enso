@@ -32,7 +32,7 @@
             <div class="footer-nav_block" style="border-right: none">
                 <h3>- CONTACT</h3>
                 <ul>
-                    <li><img src="img/call.png" alt="ENSO">+1 (917) 721-6123</li>
+                    <li><img src="img/call.png" alt="ENSO"> <a href="tel:+19177216123">+1 (917) 721-6123</a></li>
                     <li><img src="img/mail.png" alt="ENSO">hello@enso.com</li>
                     <li><img src="img/flag.png" alt="ENSO">str.15 Clyde Road</li>
                     <li>Suite 202 Somerset,</li>

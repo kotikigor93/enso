@@ -15,7 +15,7 @@
     <title>ENSO</title>
 </head>
 <body>
-<nav class="nav">
+<nav class="nav desctop-nav">
     <div class="container">
         <div class="header-nav">
             <a href="/" class="logo">
@@ -31,6 +31,32 @@
                 SELECT WEBSITE DESIGN
             </div>
         </div>
+    </div>
+</nav>
+<nav class="nav mobile-nav">
+    <div class="container">
+        <div class="header-nav">
+            <a href="/" class="logo">
+                <img src="img/logo.png" alt="ENSO">
+            </a>
+            <div class="burger">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+        </div>
+        <div class="mobile-block mobile-hide">
+            <ul class="header-nav_items">
+                <li class="active-menu">HOME</li>
+                <li>SERVICES</li>
+                <li>ABOUT US</li>
+                <li>CONTACT</li>
+            </ul>
+            <a href="tel:+19177216123" class="cont"><img src="img/call-mob.png" alt="ENSO">Call us: +1 (917) 721-6123</a>
+            <a href="tel:+19177216123" class="cont"><img src="img/mail-mob.png" alt="ENSO">hello@enso.com</a>
+            <a href="#" class="start">Start your project now</a>
+        </div>
+
     </div>
 </nav>
 <header>
