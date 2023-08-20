@@ -53,7 +53,7 @@
                 <li>CONTACT</li>
             </ul>
             <a href="tel:+19177216123" class="cont"><img src="img/call-mob.png" alt="ENSO">Call us: +1 (917) 721-6123</a>
-            <a href="tel:+19177216123" class="cont"><img src="img/mail-mob.png" alt="ENSO">hello@enso.com</a>
+            <a href="mailto:hello@enso.com" class="cont"><img src="img/mail-mob.png" alt="ENSO">hello@enso.com</a>
             <a href="#" class="start">Start your project now</a>
         </div>
 
