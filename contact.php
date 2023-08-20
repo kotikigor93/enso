@@ -33,14 +33,45 @@ include_once('header.php');
         </div>
         <div class="follow">
             <h3>Follow Us On</h3>
-
             <ul>
                 <li><a href="#"><img src="img/fb.png" alt="Facebook ENSO"></a></li>
                 <li><a href="#"><img src="img/youtube.png" alt="YouTube ENSO"></a></li>
                 <li><a href="#"><img src="img/instagram.png" alt="Instagram ENSO"></a></li>
                 <li><a href="#"><img src="img/pinteres.png" alt="Pinterest ENSO"></a></li>
             </ul>
-
+        </div>
+        <div class="callback">
+            <img src="img/callback.png" alt="Callback ENSO">
+            <a href="#">SCHEDULE A CALLBACK</a>
+        </div>
+        <div class="choose">
+            <h4>CHOOSE THE RIGHT ENGAGEMENT MODEL</h4>
+            <h3>Hire Our Experts For Your Project</h3>
+            <p>
+                <span>ENSO Tech Solutions</span> understands that every business has different needs and time is of
+                the essence. Full-time, part-time or hourly hiring, we are at your service to choose our
+                TOP-class services according to your business requirements.
+            </p>
+        </div>
+        <div class="discus">
+            <div class="discus-img">
+                <div class="discus-bg"></div>
+                <img src="img/discus.png" alt="Discus ENSO">
+            </div>
+            <div class="discus-block">
+                <ul>
+                    <li>
+                        <img src="img/discus1.png" alt="ENSO">
+                    </li>
+                    <li>
+                        <img src="img/discus2.png" alt="ENSO">
+                    </li>
+                    <li>
+                        <img src="img/discus3.png" alt="ENSO">
+                    </li>
+                </ul>
+                <a href="#">LET'S DISCUSS YOUR REQUIREMENT</a>
+            </div>
         </div>
     </div>
 </section>
