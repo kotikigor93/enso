@@ -33,7 +33,7 @@
                 <h3>- CONTACT</h3>
                 <ul>
                     <li><img src="img/call.png" alt="ENSO"> <a href="tel:+19177216123">+1 (917) 721-6123</a></li>
-                    <li><img src="img/mail.png" alt="ENSO"> <a href="mailto:hello@enso.com">hello@enso.com</li>
+                    <li><img src="img/mail.png" alt="ENSO"> <a href="mailto:hello@enso.com">hello@enso.com</a></li>
                     <li><img src="img/flag.png" alt="ENSO">str.15 Clyde Road</li>
                     <li>Suite 202 Somerset,</li>
                     <li>New Jersey,</li>
