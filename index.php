@@ -148,7 +148,7 @@ include_once('header.php');
                     Ihor Kotyk
                 </p>
                 <span>
-                    Team Lead / Senior<br>
+                    Team Lead<br>
                     Full Stack Developer
                 </span>
             </li>

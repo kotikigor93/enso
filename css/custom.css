@@ -133,7 +133,6 @@ header{
     cursor: pointer;
     background: #37447E;
     color: #D9D9D9;
-    margin-top: -40px;
 }
 .block-item{
     position: relative;
@@ -150,6 +149,7 @@ header{
     font-weight: 500;
     font-size: 64px;
     color: #37447E;
+    padding-bottom: 50px;
     text-transform: uppercase;
 }
 .block-item p{
@@ -237,4 +237,205 @@ header{
 }
 .block-item .list-team img:hover{
     transform: scale(1.1);
+}
+footer{
+    background: url("../img/footer-bg.png") no-repeat center;
+    background-size: cover;
+}
+footer .corp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 75px 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+footer .footer-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+footer .footer-nav .footer-nav_block{
+    margin-top: 112px;
+    width: 25%;
+    padding: 40px 19px 19px 19px;
+    border-right: 1px solid #fff;
+    min-height: 100%;
+}
+footer .footer-logo{
+    width: 100%;
+}
+footer .footer-nav .footer-nav_block p{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .footer-nav .footer-nav_block p span{
+    font-weight: 500;
+}
+footer .footer-nav .footer-nav_block h3{
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+footer .footer-nav .footer-nav_block ul{
+    padding: 0;
+}
+footer .footer-nav .footer-nav_block ul li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .header-nav_items li {
+        font-size: 25px;
+    }
+
+    .nav .website {
+        font-size: 20px;
+    }
+
+    .header-block p {
+        font-size: 32px;
+    }
+
+    .block-item_content p {
+        font-size: 29px;
+    }
+    .our_img{
+        width: 50% ;
+    }
+    .block-item .list-team li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+    }
+    .block-item .list-team .img_block{
+        min-width: 200px;
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nav .website {
+        font-size: 15px;
+    }
+    .header-nav_items li {
+        font-size: 20px;
+    }
+    .header-block h1 {
+        font-size: 55px;
+        padding-top: 135px;
+    }
+    .header-list {
+        font-size: 23px;
+    }
+    .header-block p {
+        font-size: 24px;
+    }
+    .header-block a {
+        padding: 6px 18px;
+        font-size: 20px;
+    }
+    .block-item h2 {
+        font-size: 50px;
+    }
+    .block-item_content p {
+        font-size: 22px;
+    }
+    .block-item p{
+        font-size: 25px;
+    }
+    .block-item .list-services li {
+        font-size: 27px;
+    }
+    footer .footer-nav .footer-nav_block ul li {
+        font-size: 18px
+    }
+    footer .footer-nav .footer-nav_block p{
+        font-size: 20px;
+    }
+    footer .footer-nav .footer-nav_block h3{
+        font-size: 24px;
+    }
+    .footer-nav_block ul li img{
+        width: 30px;
+    }
+    footer .corp{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .header-block h1{
+        width: 100%;
+        text-align: center;
+    }
+    .header-list{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 80px 0;
+    }
+    .header-list li{
+        margin: 10px 0;
+    }
+    .header-block p{
+        text-align: center;
+    }
+    .header-block a{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .block-item_content{
+        flex-direction: column;
+    }
+    .list-services li{
+        padding-left: 0!important;
+    }
+    .block-item .list-team{
+        flex-wrap: wrap;
+        margin-top: 75px;
+    }
+    .block-item .list-team li{
+        width: 50%;
+    }
+    footer .footer-nav .footer-nav_block h3{
+        font-size: 18px;
+    }
+    footer .footer-nav .footer-nav_block h3{
+        font-size: 16px;
+    }
+    footer .footer-nav .footer-nav_block p {
+        font-size: 16px;
+    }
+    .footer-nav_block ul li img {
+        width: 15px;
+    }
+    footer .corp {
+        font-size: 16px;
+    }
+    .header-nav_items li {
+        font-size: 16px;
+    }
+    .nav .website {
+        padding: 0 15px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .nav img {
+        max-height: 72px;
+        width: 100%;
+        height: auto;
+    }
 }
