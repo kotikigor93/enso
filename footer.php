@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer-nav footer-desc">
             <div class="footer-nav_block">
-                <img src="img/logo-footer.png" alt="ENSO" class="footer-logo">
+                <a href="/"><img src="img/logo-footer.png" alt="ENSO" class="footer-logo"></a>
                 <p>
                     At <span>ENSO Tech solutions</span>, we are proud of every project we’ve worked on and
                     intend to offer end-to-end digital marketing & web design service to all
@@ -24,9 +24,9 @@
             <div class="footer-nav_block">
                 <h3>- QUICK LINKS</h3>
                 <ul>
-                    <li>About us</li>
+                    <li><a href="/about.php">About us</a></li>
                     <li>Portfolio</li>
-                    <li>Contact us</li>
+                    <li><a href="contact.php" class="orange">Contact us</a></li>
                 </ul>
             </div>
             <div class="footer-nav_block" style="border-right: none">
