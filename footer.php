@@ -60,10 +60,10 @@
             <div class="footer-menu">
                 <p>QUIK LINKS <img src="img/plus.png" alt="ENSO"></p>
                 <ul class="hidden">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About us</li>
-                    <li>Contact</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="about.php">About us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
 

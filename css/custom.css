@@ -13,7 +13,7 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
 }
 .mobile-nav{
-  display: none;
+  display: none!important;
 }
 .footer-mob{
     display: none!important;
@@ -652,6 +652,18 @@ footer .footer-nav a{
     footer .corp{
         font-size: 18px;
     }
+    .contact-block .right-contact input{
+        width: 44%;
+    }
+    .callback a {
+        font-size: 24px;
+    }
+    .discus-img{
+        display: none;
+    }
+    .discus-block{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 990px){
@@ -717,6 +729,24 @@ footer .footer-nav a{
         width: 100%;
         height: auto;
     }
+    .contact-block .right-contact input{
+        width: 100%;
+    }
+    .contact-block .left-contact{
+        margin:35px;
+    }
+    .contact-block .left-contact{
+        font-size: 20px;
+    }
+    .contact-block .right-contact textarea{
+        width: 100%;
+    }
+    .callback{
+        display: none;
+    }
+    .choose h4{
+        margin-top: 100px;
+    }
 }
 @media screen and (max-width: 800px) {
     .container {
@@ -736,7 +766,7 @@ footer .footer-nav a{
     }
 
     .mobile-nav {
-        display: block;
+        display: block!important;
     }
 
     .logo {
@@ -960,5 +990,99 @@ footer .footer-nav a{
         align-items: flex-start;
         justify-content: center;
     }
-
+    .contact-bg{
+        padding-top: 20px;
+        margin-top: 72px;
+        width: 100%;
+        background-image: url("../img/mob-bg.png"), radial-gradient(175.95% 136.09% at 0.83% 100.00%, #B8BDD1 0%, #9CACF3 17.19%, #8289AB 41.15%, #60698E 97.92%);
+    }
+    .header-contact h3{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .header-contact p{
+        z-index: 1;
+        width: 95%;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .callback-img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .callback2{
+        margin-right: 34%;
+        z-index: 2;
+        margin-top: -10px;
+    }
+    .callback-img a, .contact-block .right-contact button, .discus-block a{
+        border-radius: 0;
+        margin-top: 20px;
+        margin-right: 0px;
+        padding: 10px 5px 10px 20px;
+        color: #ffffff;
+        background: #60698E;
+        float: right;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        font-size: 18px;
+    }
+    .contact p{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center!important;
+    }
+    .contact h3{
+        width: 90%;
+        margin-left: 5%;
+        color: #37447E;
+        text-align: center;
+    }
+    .contact-block .right-contact input, .contact-block .right-contact textarea{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .choose h4 {
+        font-size: 14px;
+    }
+    .choose h3 {
+        font-size: 24px;
+    }
+    .discus{
+        margin-top: 10px;
+    }
+    .discus-block{
+        align-items: stretch;
+    }
+    .discus-block ul {
+        width: 95%;
+        padding-left: 5%;
+    }
+    .discus-block ul li{
+        width: 30%;
+        margin: 5px;
+    }
+    .discus-block ul li img{
+        width: 100%;
+    }
+    .discus-block  a{
+        margin-left: 80px;
+    }
+    .follow h3{
+        font-size: 24px;
+    }
+    .follow ul li {
+        height: 40px;
+    }
 }
