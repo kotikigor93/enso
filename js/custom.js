@@ -1,6 +1,11 @@
 $(document).ready(function (e){
 
     let burger = $('.burger');
+    let footer_menu = $('.footer-menu');
+
+    footer_menu.click(function (e){
+       $(this).find('ul').toggleClass('hidden');
+    });
 
     burger.click(function (e){
        e.preventDefault();

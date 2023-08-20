@@ -9,6 +9,9 @@
 .mobile-nav{
   display: none;
 }
+.footer-mob{
+    display: none;
+}
 .container{
     padding: 0!important;
     position: relative;
@@ -302,6 +305,10 @@ footer .footer-nav .footer-nav_block ul li{
 .mob-img{
     display: none;
 }
+footer .footer-nav a{
+    color: #fff;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1400px) {
     .header-nav_items li {
@@ -457,6 +464,14 @@ footer .footer-nav .footer-nav_block ul li{
         display: none;
     }
 
+    .footer-desc{
+        display: none!important;
+    }
+
+    .footer-mob{
+        display: block!important;
+    }
+
     .mobile-nav {
         display: block;
     }
@@ -606,6 +621,7 @@ footer .footer-nav .footer-nav_block ul li{
         flex-direction: row;
         justify-content: flex-start;
         margin-left: 5%;
+        margin-bottom: 20px;
     }
     .block-item .list-team .img_block {
         margin-right: 20px;
@@ -624,4 +640,61 @@ footer .footer-nav .footer-nav_block ul li{
     .block-item .list-team {
         margin-top: 0;
     }
+    .footer-menu{
+        margin-top: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footer-menu p{
+        color: #37447E;
+        padding: 5px 18px 5px 18px;
+        display: flex;
+        font-size: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(89deg, #D9D9D9 44.09%, rgba(255, 242, 242, 0.00) 96.38%);
+    }
+    .footer-menu p img{
+        background: #37447E;
+        border-radius: 50%;
+        padding: 2px;
+    }
+    .footer-menu ul{
+        padding-left: 0;
+    }
+    .footer-menu ul li{
+        width: 90%;
+        margin-left: 5%;
+        list-style: none;
+        font-size: 15px;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        padding: 15px 0;
+    }
+    .footer-mob .footer-nav_block{
+        width: 90%!important;
+        margin-top: 0!important;
+        margin-left: 5% !important;
+        padding: 0!important;
+    }
+    .footer-mob .footer-nav_block ul{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footer-mob .footer-nav_block ul li img{
+        width: 30px;
+        margin-right: 15px;
+    }
+    footer .footer-nav .footer-nav_block h3{
+        font-size: 20px;
+    }
+    footer .corp{
+        width: 90%;
+        margin: 30px 5% 30px 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
 }
