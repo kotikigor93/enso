@@ -1,6 +1,33 @@
 <?php
 include_once('header.php');
 ?>
+<header>
+    <div class="container">
+        <div class="header-block">
+            <h1>
+                Always ready to make <br>
+                your ideas come true
+            </h1>
+            <ul class="header-list">
+                <li id="list1">
+                </li>
+                <li id="list2">
+                </li>
+                <li id="list3">
+                </li>
+                <li id="list4">
+                </li>
+            </ul>
+            <p>
+                Welcome to <span>ENSO Tech Solution</span> - <br>
+                Unlock the full potential of your online presence
+                <a href="#">
+                    Start your project now
+                </a>
+            </p>
+        </div>
+    </div>
+</header>
 <section class="block-item">
     <div class="container">
         <h2>

@@ -22,10 +22,10 @@
                 <img src="img/logo.png" alt="ENSO">
             </a>
             <ul class="header-nav_items">
-                <li class="active-menu">HOME</li>
-                <li>SERVICES</li>
-                <li>ABOUT US</li>
-                <li>CONTACT</li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/'){ ?> class="active-menu" <?php } ?>><a href="/">HOME</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/services.php'){ ?> class="active-menu" <?php } ?>><a href="services.php">SERVICES</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/about.php'){ ?> class="active-menu" <?php } ?>><a href="about.php">ABOUT US</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/contact.php'){ ?> class="active-menu" <?php } ?>><a href="contact.php">CONTACT</a></li>
             </ul>
             <div class="website">
                 SELECT WEBSITE DESIGN
@@ -47,10 +47,10 @@
         </div>
         <div class="mobile-block mobile-hide">
             <ul class="header-nav_items">
-                <li class="active-menu">HOME</li>
-                <li>SERVICES</li>
-                <li>ABOUT US</li>
-                <li>CONTACT</li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/'){ ?> class="active-menu" <?php } ?>><a href="/">HOME</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/services.php'){ ?> class="active-menu" <?php } ?>><a href="services.php">SERVICES</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/about.php'){ ?> class="active-menu" <?php } ?>><a href="about.php">ABOUT US</a></li>
+                <li <?php if($_SERVER['REQUEST_URI']=='/contact.php'){ ?> class="active-menu" <?php } ?>><a href="contact.php">CONTACT</a></li>
             </ul>
             <a href="tel:+19177216123" class="cont"><img src="img/call-mob.png" alt="ENSO">Call us: +1 (917) 721-6123</a>
             <a href="mailto:hello@enso.com" class="cont"><img src="img/mail-mob.png" alt="ENSO">hello@enso.com</a>
@@ -59,30 +59,3 @@
 
     </div>
 </nav>
-<header>
-    <div class="container">
-        <div class="header-block">
-            <h1>
-                Always ready to make <br>
-                your ideas come true
-            </h1>
-            <ul class="header-list">
-                <li id="list1">
-                </li>
-                <li id="list2">
-                </li>
-                <li id="list3">
-                </li>
-                <li id="list4">
-                </li>
-            </ul>
-            <p>
-                Welcome to <span>ENSO Tech Solution</span> - <br>
-                Unlock the full potential of your online presence
-                <a href="#">
-                    Start your project now
-                </a>
-            </p>
-        </div>
-    </div>
-</header>
