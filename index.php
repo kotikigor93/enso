@@ -7,10 +7,13 @@ include_once('header.php');
             WEB development
         </h2>
         <div class="block-item_content">
+            <div class="img_block mob-img">
+                <img src="img/block1.png" alt="Web Develop">
+            </div>
             <p>
                 Elevate Your Online Presence with Unforgettable Web Solutions That Leave a Lasting Impression
             </p>
-            <div class="img_block">
+            <div class="img_block desc-img">
                 <img src="img/block1.png" alt="Web Develop">
             </div>
         </div>
@@ -28,10 +31,13 @@ include_once('header.php');
             AI integration
         </h2>
         <div class="block-item_content">
+            <div class="img_block mob-img">
+                <img src="img/block2.png" alt="AI integration">
+            </div>
             <p>
                 Transform Your Website with the Power of Artificial Intelligence - Unleash its Full Potential
             </p>
-            <div class="img_block">
+            <div class="img_block desc-img">
                 <img src="img/block2.png" alt="AI integration">
             </div>
         </div>
@@ -48,12 +54,15 @@ include_once('header.php');
             SEO optimisation
         </h2>
         <div class="block-item_content">
+            <div class="img_block mob-img">
+                <img src="img/block3.png" alt="SEO optimisation">
+            </div>
             <p>
                 Empower Your Business with
                 Mobile-Optimized and
                 SEO - Friendly Solutions
             </p>
-            <div class="img_block">
+            <div class="img_block desc-img">
                 <img src="img/block3.png" alt="SEO optimisation">
             </div>
         </div>
@@ -70,10 +79,13 @@ include_once('header.php');
             Usability audit
         </h2>
         <div class="block-item_content">
+            <div class="img_block mob-img">
+                <img src="img/block4.png" alt="Usability audit">
+            </div>
             <p>
                 Revolutionize Your Website's Performance with a Professional Usability Audit
             </p>
-            <div class="img_block">
+            <div class="img_block desc-img">
                 <img src="img/block4.png" alt="Usability audit">
             </div>
         </div>
@@ -89,6 +101,7 @@ include_once('header.php');
         <h2 class="center">
             OUR SERVICES
         </h2>
+        <img src="img/our.png" alt="OUR SERVICES" class="our_img mob-img">
         <ul class="list-services">
             <li style="padding-left: 0">SEO Optimized WEBSITE</li>
             <li style="padding-left: 40px">User-Centric Approach</li>
@@ -98,7 +111,7 @@ include_once('header.php');
             <li style="padding-left: 200px">Creative and Customized Designs</li>
             <li style="padding-left: 240px">Timely Delivery and Ongoing Support</li>
         </ul>
-        <img src="img/our.png" alt="OUR SERVICES" class="our_img">
+        <img src="img/our.png" alt="OUR SERVICES" class="our_img desc-img">
     </div>
 </section>
 <section class="block-item">
@@ -111,46 +124,54 @@ include_once('header.php');
                 <div class="img_block">
                     <img src="img/photo1.png" alt="Eugene Teslya">
                 </div>
-                <p>
-                    Eugene Teslya
-                </p>
-                <span>
-                    Co-founder
-                </span>
+                <div class="author">
+                    <p>
+                        Eugene Teslya
+                    </p>
+                    <span>
+                        Co-founder
+                    </span>
+                </div>
             </li>
             <li>
                 <div class="img_block">
                     <img src="img/photo2.png" alt="Lutsenko Anna">
                 </div>
-                <p>
-                    Lutsenko Anna
-                </p>
-                <span>
-                    Co-founder<br>CEO
-                </span>
+                <div class="author">
+                    <p>
+                        Lutsenko Anna
+                    </p>
+                    <span>
+                        Co-founder<br>CEO
+                    </span>
+                </div>
             </li>
             <li>
                 <div class="img_block">
                     <img src="img/photo3.png" alt="Demidov Aleksandr">
                 </div>
-                <p>
-                    Demidov Aleksandr
-                </p>
-                <span>
-                    Chief Creative <br>Officer
-                </span>
+                <div class="author">
+                    <p>
+                        Demidov Aleksandr
+                    </p>
+                    <span>
+                        Chief Creative <br>Officer
+                    </span>
+                </div>
             </li>
             <li>
                 <div class="img_block">
                     <img src="img/photo4.jpg" alt="Ihor Kotyk">
                 </div>
-                <p>
-                    Ihor Kotyk
-                </p>
-                <span>
-                    Team Lead<br>
-                    Full Stack Developer
-                </span>
+                <div class="author">
+                    <p>
+                        Ihor Kotyk
+                    </p>
+                    <span>
+                        Team Lead<br>
+                        Full Stack Developer
+                    </span>
+                </div>
             </li>
         </ul>
     </div>
